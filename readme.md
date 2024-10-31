@@ -16,7 +16,7 @@ An AI-driven aim assist application optimized for **AMD GPU users**, offering a 
 
 ## Requirements
 - **Python Libraries**: 
-  - `torch-directml`, `numpy`, `opencv-python`, `psutil`, `colorama`, `pyautogui`, `PyGetWindow`, `yaml`, `tqdm`, `matplotlib`, `seaborn`, `requests`, `dill`, `onnx`, `onnxruntime-directml`, `ultralytics`, `bettercam`, `dxcam`, `serial` (for Arduino), `cupy-rocm`.
+  - `torch-directml`, `numpy`, `opencv-python`, `psutil`, `colorama`, `pyautogui`, `PyGetWindow`, `yaml`, `tqdm`, `matplotlib`, `seaborn`, `requests`, `dill`, `onnx`, `onnxruntime-directml`, `ultralytics`, `bettercam`, `dxcam`, `serial` (for Arduino).
 - **Hardware**: 
   - AMD GPU for optimal performance with DirectML.
   - Optional: Arduino device (e.g., UNO) if `arduino_support` is enabled.
