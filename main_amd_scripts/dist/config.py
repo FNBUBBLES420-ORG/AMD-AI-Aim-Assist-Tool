@@ -30,9 +30,9 @@ centerOfScreen = True
 
 # ONNX Model Selection
 onnxChoice = 3
-model_path = 'v5.engine'
-device = 'dml'  # Use DirectML for AMD GPUs
-fp16 = True  # Enable FP16 if supported by DirectML for performance boost
+model_path = 'model.onnx'  # Use an ONNX file instead of .engine for AMD GPUs
+device = 'dml'  # DirectML for AMD GPUs
+fp16 = True  # Enable FP16 if supported by DirectML for a performance boost
 
 # Arduino Support
 arduino_support = True
