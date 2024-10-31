@@ -96,29 +96,30 @@ Edit the `config.py` file to adjust the settings to match your setup and prefere
 
 ### Configuration Settings
 
-| Setting          | Default   | Description                                                                 |
-|------------------|-----------|-----------------------------------------------------------------------------|
-| screenShotHeight | 320       | Height of the screenshot for screen capture                                 |
-| screenShotWidth  | 320       | Width of the screenshot for screen capture                                  |
-| useMask          | False     | Enable/Disable mask application on image frames                             |
-| maskSide         | left      | Side of the mask, choose "left" or "right"                                  |
-| maskWidth        | 80        | Width of the mask                                                           |
-| maskHeight       | 200       | Height of the mask                                                          |
-| aaMovementAmp    | 0.4       | Amplifier for mouse movement adjustments                                    |
-| confidence       | 0.4       | Confidence threshold for detection                                          |
-| aaQuitKey        | 8         | Key to quit the application                                                 |
-| aaActivateKey    | CapsLock  | Key to activate aim assist                                                  |
-| headshot_mode    | True      | Target headshots specifically                                               |
-| cpsDisplay       | False     | Display clicks per second (CPS)                                             |
-| visuals          | True      | Display real-time visuals during processing                                 |
-| centerOfScreen   | True      | Focus targeting towards the center of the screen                            |
-| onnxChoice       | 3         | ONNX model version selection                                                |
-| model_path       | v5.engine | Path to the model file                                                      |
-| device           | dml       | Device for processing (set as 'dml' for AMD GPUs)                           |
-| fp16             | True      | Enable FP16 (half precision) for faster computation on supported hardware   |
-| arduino_support  | True      | Enable/Disable Arduino control for mouse movement                           |
-| arduino_port     | COM3      | Serial port for Arduino                                                     |
-| arduino_baudrate | 9600      | Baud rate for Arduino communication                                         |
+| Setting          | Default     | Description                                                                 |
+|------------------|-------------|-----------------------------------------------------------------------------|
+| screenShotHeight | 320         | Height of the screenshot for screen capture                                 |
+| screenShotWidth  | 320         | Width of the screenshot for screen capture                                  |
+| useMask          | False       | Enable/Disable mask application on image frames                             |
+| maskSide         | left        | Side of the mask, choose "left" or "right"                                  |
+| maskWidth        | 80          | Width of the mask                                                           |
+| maskHeight       | 200         | Height of the mask                                                          |
+| aaMovementAmp    | 0.4         | Amplifier for mouse movement adjustments                                    |
+| confidence       | 0.4         | Confidence threshold for detection                                          |
+| aaQuitKey        | 8           | Key to quit the application                                                 |
+| aaActivateKey    | CapsLock    | Key to activate aim assist                                                  |
+| headshot_mode    | True        | Target headshots specifically                                               |
+| cpsDisplay       | False       | Display clicks per second (CPS)                                             |
+| visuals          | True        | Display real-time visuals during processing                                 |
+| centerOfScreen   | True        | Focus targeting towards the center of the screen                            |
+| onnxChoice       | 3           | ONNX model version selection                                                |
+| model_path       | model.onnx  | Path to the ONNX model file (required for AMD GPU with DirectML)            |
+| device           | dml         | Device for processing (set as 'dml' for AMD GPUs using DirectML)            |
+| fp16             | True        | Enable FP16 (half precision) for faster computation on supported hardware   |
+| arduino_support  | True        | Enable/Disable Arduino control for mouse movement                           |
+| arduino_port     | COM3        | Serial port for Arduino                                                     |
+| arduino_baudrate | 9600        | Baud rate for Arduino communication                                         |
+
 
 ### Running the Program
 
