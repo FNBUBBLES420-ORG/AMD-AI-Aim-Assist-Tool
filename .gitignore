@@ -1,0 +1,47 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+venv.bak/
+
+# PyArmor generated runtime files
+pyarmor_runtime_*/
+
+# Model and weights
+*.pt
+models/
+
+# Logs and debugging files
+*.log
+*.txt
+*.gif
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# Distribution / build directories
+dist/
+build/
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
