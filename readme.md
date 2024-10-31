@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Banner" width="400"/>
+  <img src="https://github.com/FNBUBBLES420-ORG/AMD-AI-Aim-Assist-Tool/blob/main/main_amd_scripts/dist/imgs/banner.png" alt="Banner" width="400"/>
 </p>
 
 # 🚨 READ THE ENTIRE README.MD & ALL DOCUMENTATION CAREFULLY !!! 🚨
