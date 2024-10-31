@@ -3,6 +3,7 @@
 ## English  
 **Instant Ban Warning**  
 - none 
+---
 
 We kindly ask you to provide feedback regarding your experience with the **AMD AI Aim Assist Tool**. Please consider the following questions:
 
