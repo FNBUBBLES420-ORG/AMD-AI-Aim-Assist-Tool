@@ -53,37 +53,33 @@ Our nonprofit, **fnbubbles420.org**, is dedicated to creating a **supportive, in
 
 ```
 AMD-AI-Aim-Assist-Tool/
-├── .github/ # GitHub-specific files
-│   └── dependabot.yml # Dependabot configuration for dependency updates
-├── Environmental_Setup/ # Environmental setup and configuration files
-│   └── ... # Files related to environment setup (details not provided)
-├── main_directml_script/ # Main script directory for DirectML
-│   └── dist/ # Distribution folder with obfuscated runtime and models
-│       ├── imgs/ # Image assets
-│       ├── models/ # Model files
-│       ├── pyarmor_runtime_000000 # PyArmor runtime obfuscation file
-│       ├── pyarmor_runtime_000001 # PyArmor runtime obfuscation file
-│       ├── ultralytics1/utils/ # Ultralytics utility files
-│       ├── utils/ # Additional utility scripts
-│       ├── New Text Document.txt # Placeholder text document
-│       ├── config.py # Configuration file with customizable settings
-│       ├── export-command.txt # Export command for model or setup
-│       ├── export.py # Script for exporting models
-│       ├── gameSelection.py # Script for selecting and activating the game window
-│       ├── main_amd.py # Main script using DirectML for AI aim assist
-│       └── readme.md # README for dist folder specifics
-├── CODE_OF_CONDUCT.md # Code of Conduct for community guidelines
-├── LICENSE.md # License file for the project
-├── PLEASE-READ-IMPORTANT.md # Important Information Regarding Your Disability When Using This Tool
-├── SECURITY.md # Security policy for reporting vulnerabilities
-├── basicv5s.pt # Core PyTorch model file
-├── .gitattributes # Git attributes for handling line endings, etc.
-├── .gitignore # Git ignore file to exclude unnecessary files from the repo
-├── readme.md # Main README with project overview and setup instructions
-├── requirements.txt # Python dependencies for the project
-├── run.bat # Batch script to execute the project
-├── update_ultralytics.bat # Batch script to update the Ultralytics library
-└── v5.pt # Additional model file for DirectML
+├── main_amd_scripts/                 # Main directory for AMD-specific scripts
+│   ├── dist/                          # Distribution folder with built files
+│   │   ├── imgs/                      # Image assets for the project
+│   │   ├── models/                    # Model files (e.g., ONNX, PyTorch)
+│   │   ├── utils/                     # Additional utility scripts and functions
+│   │   ├── pyarmor_runtime_000000     # PyArmor runtime obfuscation files
+│   │   ├── pyarmor_runtime_000001
+│   │   ├── config.py                  # Configuration file for customizable settings
+│   │   ├── export-command.txt         # Command for model or setup export
+│   │   ├── export.py                  # Script to handle model exporting
+│   │   ├── gameSelection.py           # Script for selecting and activating the game window
+│   │   ├── main_directml.py           # Main script for AI aim assist using DirectML
+│   │   └── readme.md                  # README specific to dist folder details
+├── .gitignore                         # Git ignore file to exclude unnecessary files from the repo
+├── CODE_OF_CONDUCT.md                 # Code of Conduct for community guidelines
+├── LICENSE.md                         # License file for the project
+├── PLEASE-READ-IMPORTANT.md           # Important information for users
+├── SECURITY.md                        # Security policy for reporting vulnerabilities
+├── basicv5s.pt                        # Core PyTorch model file for assist tool
+├── .gitattributes                     # Git attributes for handling line endings, etc.
+├── get_device.py                      # Script to check device compatibility and GPU setup
+├── install_pytorch.bat                # Batch script to install PyTorch on AMD
+├── readme.md                          # Main README with project overview and setup instructions
+├── requirements.txt                   # Python dependencies for the project
+├── run.bat                            # Batch script to run the project
+├── update_ultralytics.bat             # Batch script to update the Ultralytics library
+└── v5.pt                               # Additional model file for AMD DirectML
 ```
 
 ### Installation
